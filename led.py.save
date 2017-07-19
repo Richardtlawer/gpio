@@ -1,0 +1,42 @@
+from gpiozero import LED
+
+from time impor
+
+button.when_pressed = led.on
+button.when_released = led.off
+
+pause()
+
+
+
+
+
+def dot():
+        led.on()
+        sleep(1)
+        led.off()
+        sleep(1)
+
+def dash():
+        led.off()
+        sleep(5)
+        led.on()
+        sleep(5)
+        led.off()
+
+
+
+
+
+
+#while True:
+# led.on()
+ #sleep(1)
+# led.off()
+ #sleep(1)
+
+#if __name__=='__main__':
+ #       dot()
+ #       dash()
+  #      dot()
+   #     pause()
